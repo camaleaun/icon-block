@@ -1,0 +1,37 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "camaleaun/icon",
+	"version": "1.1.0",
+	"title": "Ícone",
+	"category": "widgets",
+	"icon": "smiley",
+	"example": {},
+	"attributes": {},
+	"supports": {
+		"html": true,
+		"__experimentalBorder": {
+			"radius": true,
+			"__experimentalDefaultControls": {
+				"radius": true
+			}
+		},
+		"color": {
+			"text": true,
+			"background": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		},
+		"border-radius": true,
+		"typography": {
+			"fontSize": true
+		}
+	},
+	"allowedBlocks": [ "camaleaun/icon-path" ],
+	"textdomain": "camaleaun",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
